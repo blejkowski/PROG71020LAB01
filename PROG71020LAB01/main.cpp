@@ -75,8 +75,6 @@ int main() {
 	// and call it as follows multiply(2, 3) ? Why or why not? Add your answer as a comment in your code. (1 pt.).
 	// 
 	// Answer: Yes!
-	//Another function with the same name and two arguments may be added because:
-	//This other function returns a variable of a different type(double vs int).
-	//This other functions takes parameters of different types(double vs int).
+	//Another function with the same name and two arguments may be added because the two arguments are of different types. (2 doubles vs 2 ints)
 	return 0;
 }

@@ -5,10 +5,14 @@ typedef struct Location {
 }Location;
 
 void swap(int* number1, int* number2) {
-
+	int number3 = *number1;
+	*number1 = *number2;
+	*number2 = number3;
 }
 void swap(int& number1, int& number2) {
-
+	int number3 = number1;
+	number1 = number2;
+	number2 = number3;
 }
 
 void swap(Location* loc1, Location* loc2) {

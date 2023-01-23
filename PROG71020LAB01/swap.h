@@ -2,8 +2,32 @@ typedef struct Location {
 	double longitude;
 	double latitude;
 }Location;
-
+/*Function swap()
+*
+* Defintion:
+*	A function that takes two pointers to structs of type int, and swaps the values between them.
+*
+* Params:
+*	loc1: an integer pointer
+*	loc2: an integer pointer
+*
+* return: void
+*
+*/
 void swap(int* number1, int* number2);
+
+/*Function swap()
+*
+* Defintion:
+*	A function that takes two references to structs of type int, and swaps the values between them.
+*
+* Params:
+*	loc1: an integer refernce
+*	loc2: an integer refernce
+*
+* return: void
+*
+*/
 void swap(int& number1, int& number2);
 /*Function swap()
 *

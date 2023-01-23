@@ -1,4 +1,8 @@
-
+/* PROG71020 LAB1 W23 - GROUP 4 - swap.cpp
+*
+* This file contains the definitions of the functions related to the swap module.
+*
+*/
 typedef struct Location {
 	double longitude;
 	double latitude;
